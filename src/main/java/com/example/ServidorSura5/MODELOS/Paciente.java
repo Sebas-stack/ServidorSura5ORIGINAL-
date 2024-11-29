@@ -109,12 +109,12 @@ public class  Paciente {
         this.ips = ips;
     }
 
-    public String getGripoIngresos() {
+    public String getGrupoIngresos() {
         return grupoIngresos;
     }
 
-    public void setGripoIngresos(String gripoIngresos) {
-       this.grupoIngresos = gripoIngresos;
+    public void setGrupoIngresos(String grupoIngresos) {
+       this.grupoIngresos = grupoIngresos;
     }
 
     public Boolean getTienePoliza() {
@@ -142,7 +142,7 @@ public class  Paciente {
                 ", correo='" + correo + '\'' +
                 ", telefono='" + telefono + '\'' +
                 ", ips='" + ips + '\'' +
-                ", gripoIngresos='" + grupoIngresos + '\'' +
+                ", grupoIngresos='" + grupoIngresos + '\'' +
                 ", tienePoliza=" + tienePoliza +
                 ", fechaDeAfiliacion=" + fechaDeAfiliacion +
                 '}';
